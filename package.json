@@ -1,0 +1,19 @@
+{
+  "name": "oefening",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "deploy": "surge ./dist steve-design-3.surge.sh",
+    "postdeplot": "open chrome https://steve-design-3.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^5.4.11"
+  }
+}
