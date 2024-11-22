@@ -15,5 +15,9 @@
 @import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css);
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: var(--GreenTeal);
 }
