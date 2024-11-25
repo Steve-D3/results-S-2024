@@ -6,14 +6,17 @@
     "dev": "vite --open --host",
     "build": "vite build",
     "preview": "vite preview --open --host",
-    "deploy": "surge ./dist steve-design-3.surge.sh",
-    "postdeplot": "open chrome https://steve-design-3.surge.sh"
+    "deploy-main": "surge ./dist steve-design-3.surge.sh",
+    "postdeplot-main": "open chrome https://steve-design-3.surge.sh",
+    "deploy-develop": "surge ./dist steve-design-3.surge.sh",
+    "postdeplot-develop": "open chrome https://steve-design-3.surge.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "surge": "^0.24.6",
     "vite": "^5.4.11"
   }
 }
