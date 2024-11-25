@@ -9,7 +9,7 @@
     "deploy-main": "surge ./dist steve-design-3.surge.sh",
     "postdeplot-main": "open chrome https://steve-design-3.surge.sh",
     "deploy-develop": "surge ./dist steve-design-3.surge.sh",
-    "postdeplot-develop": "open chrome https://steve-design-3.surge.sh"
+    "postdeplot-develop": "open chrome https://steve-design-3-test.surge.sh"
   },
   "keywords": [],
   "author": "",
